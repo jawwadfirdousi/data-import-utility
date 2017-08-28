@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "rules": {
+    "no-console": 1,
+    "comma-dangle": ["warn", "always-multiline"],
+    "semi": [2, "always"],
+    "max-len": [2, 100, {"ignoreUrls": true}]
+  },
+  "extends": ["eslint:recommended","standard"]
+}
