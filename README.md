@@ -40,7 +40,7 @@ All local dependencies can be installed with npm using
   Configuring
   -------------
 
-Set the correct MySQL URL in .env on root and make sure the DB is already created.
+Set the correct MySQL URL in .env on root and make sure the DB with name *test* is already present.
 
 Eslint and Editor Config files are used to maintain a consistent coding style throughout the project.
 
